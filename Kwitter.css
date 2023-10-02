@@ -1,0 +1,16 @@
+.image {
+    
+    height: 100%; 
+    background-image: url("Purple.png"); 
+    left: 0;
+    background-size: cover; 
+    
+}
+
+.login {
+    
+    height: 100%; 
+    
+    
+    background-image: url("White.png"); 
+}
