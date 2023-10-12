@@ -1,0 +1,34 @@
+
+.UserName{
+    font-family: 'Roboto Mono', monospace;
+    font-size:30px ;
+    color: rgb(105, 50, 206);
+    
+    border: 5px solid;
+    
+    width: 300px;
+    border-radius: 10px;
+    
+}
+.div{
+    font-family: Open Sans; font-size: 15px; border-radius: 10px; border-color: rgb(63, 26, 197); border-width: 10px;
+}
+.addRoomButton{
+    border-radius: 15px;
+    background-color: white;
+    border-width: 5px;
+    border-color: rgb(98, 46, 228);
+    width: 100px;
+    font-family: 'Roboto Mono', monospace;
+}
+#output
+{
+	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
+    border: 2px solid;
+    border-color: rgb(91, 42, 196);
+}
+
+.body{
+    background-image: url("FinalActualBackground.png");
+    background-size: cover;
+}

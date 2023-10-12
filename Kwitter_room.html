@@ -1,0 +1,52 @@
+<html>
+
+    <head>
+        <link rel="stylesheet" href="Kwitter_room.css" type="text/css">
+        <script src="kwitter_room.js"></script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto+Mono&display=swap" rel="stylesheet">
+
+    </head>
+
+<!--Nothing-->
+
+    <body class="body">
+        
+        <button class="btn btn-info" onclick="logout()"><span class="gly"></span> Logout</button>
+
+        <center>
+            
+            <img src="LetsChat.png" style="width: 400px;">
+            <h1 class="username container-fluid" id="player"> </h1>
+              
+            
+            <br>
+            <div 
+          
+               <br> <span style="color: rgba(79, 19, 151, 0.867); font-family: 'Roboto Mono', monospace; font-size: 17px;">
+                Add Room:</span><input type="text" id="room_name" placeholder="Room Name" id="roomName" style="border-radius: 5px; border-color: rgba(115, 78, 247, 0.844);"> <br>
+            </div>
+            
+            <br>
+            <br>
+            <button onclick="addRoom(); " class="addRoomButton" >Add Room</button>
+            <br>
+            <h3 class="username" style="font-size:25px; width: 250px;">Trending Rooms:</h3>
+            <br>
+                <div id="output">
+                    
+                </div>
+            </center>
+
+            
+        
+    </body>
+
+</html>
